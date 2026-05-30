@@ -2,27 +2,25 @@ import streamlit as st
 
 st.title("AI Social Media Content Generator")
 
+platform = st.selectbox(
+    "Choose Platform",
+    ["Instagram", "LinkedIn", "TikTok"]
+)
+
+tone = st.selectbox(
+    "Choose Tone",
+    ["Professional", "Funny", "Luxury", "Motivational"]
+)
+
 business = st.text_input("Business Type")
 
 if st.button("Generate Content"):
 
-    st.subheader("Instagram Captions")
+    st.write(f"Platform: {platform}")
+    st.write(f"Tone: {tone}")
 
-    captions = [
-        f"🔥 Discover why our {business} stands out from the crowd!",
-        f"✨ Experience the best {business} experience today.",
-        f"🚀 Taking {business} services to the next level."
-    ]
+    st.subheader("Content Ideas")
 
-    for caption in captions:
-        st.write(caption)
-
-    st.subheader("Hashtags")
-
-    st.write("#marketing #business #growth #success #socialmedia")
-
-    st.subheader("Reel Ideas")
-
-    st.write("1. Behind the scenes")
-    st.write("2. Customer testimonials")
-    st.write("3. Day in the life")
+    st.write(
+        f"Create a {tone.lower()} {platform} campaign for a {business} business."
+    )
