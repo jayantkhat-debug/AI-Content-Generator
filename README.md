@@ -25,3 +25,7 @@ A social media content generator built with Python and Streamlit.
 ## Author
 
 Jayant Khatri
+## 🚀 Live Demo
+
+👉 Click here to try the AI Content Generator:
+https://ai-content-generator-by-jayant.streamlit.app/
