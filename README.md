@@ -1,17 +1,26 @@
 # AI Social Media Content Generator
 
-This project generates social media content ideas for businesses.
+A social media content generator built with Python and Streamlit.
 
 ## Features
 
-- Instagram captions
-- Hashtag suggestions
-- Reel ideas
+- Business type input
+- Platform selection
+  - Instagram
+  - LinkedIn
+  - TikTok
+- Tone selection
+  - Professional
+  - Funny
+  - Luxury
+  - Motivational
 
-## Built With
+## Technologies
 
 - Python
 - Streamlit
+- Git
+- GitHub
 
 ## Author
 
